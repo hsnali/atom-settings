@@ -2,6 +2,7 @@ MCG:
   title: "MCG"
   paths: [
     "D:\\Projects\\MCC\\MCG Rebuild\\dev\\static-website"
+    "D:\\Projects\\MCC\\MCG Rebuild\\dev\\MCC.Website"
   ]
 MCC:
   title: "MCC"
@@ -9,4 +10,14 @@ MCC:
     "D:\\Projects\\MCC\\MCC Rebuild\\dev\\static-website"
     "D:\\Projects\\MCC\\MCC Rebuild\\Website"
     "D:\\Projects\\MCC\\MCC Rebuild\\dev\\MCC.Website"
+  ]
+".atom":
+  title: ".atom"
+  paths: [
+    "C:\\Users\\hali\\.atom"
+  ]
+"httpd conf":
+  title: "httpd conf"
+  paths: [
+    "C:\\Program Files (Portable)\\Apache\\conf"
   ]

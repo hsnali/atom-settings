@@ -10,18 +10,19 @@
       "atom-material-ui"
       "seti-syntax"
     ]
-    autoHideMenuBar: true
     destroyEmptyPanes: false
     disabledPackages: [
       "symbols-view"
     ]
+    autoHideMenuBar: true
   editor:
     invisibles: {}
     showInvisibles: true
     showIndentGuide: true
     fontSize: 13
   "atom-ctags": {}
-  "linter-scss-lint": {}
+  "linter-scss-lint":
+    executablePath: "scss-lint"
   tabs:
     usePreviewTabs: true
   "tree-view":
@@ -40,3 +41,8 @@
     themeSyle: "Lighter"
   "atom-beautify":
     _analyticsUserId: "fdff187f-9cb3-4666-a3fb-ebd6ec3044b7"
+  minimap:
+    plugins:
+      linter: true
+  "minimap-linter":
+    markerType: "line"
